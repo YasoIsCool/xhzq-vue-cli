@@ -4,7 +4,7 @@
  * @Author: gaojiapeng
  * @Date: 2020-06-22 10:35:29
  * @LastEditors: gaojiapeng
- * @LastEditTime: 2020-06-23 15:55:37
+ * @LastEditTime: 2020-06-23 15:57:37
 -->
 
 # xhzq-vue-cli
@@ -35,13 +35,18 @@ npm run serve
 
 5. 运行项目 `npm run serve`
 
-## 2.无法加载文件 C:\Program Files\nodejs\xhzq.ps1，因为在此系统上禁止运行脚本
+## 2. 使用位置
+
+1. 主应用可在任意位置执行，构建项目。
+2. 子应用需要在主应用内进行构建
+
+## 3.无法加载文件 C:\Program Files\nodejs\xhzq.ps1，因为在此系统上禁止运行脚本
 
 1. 以管理员身份运行 vscode;
 2. 执行：get-ExecutionPolicy，显示 Restricted，表示状态是禁止的;
 3. 执行：set-ExecutionPolicy RemoteSigned;
 4. 这时再执行 get-ExecutionPolicy，就显示 RemoteSigned;
 
-## 3.项目正在初始化中 失败（x）
+## 4.项目正在初始化中 失败（x）
 
 请确保能够打开 https://github.com/
