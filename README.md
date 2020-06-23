@@ -4,14 +4,14 @@
  * @Author: gaojiapeng
  * @Date: 2020-06-22 10:35:29
  * @LastEditors: gaojiapeng
- * @LastEditTime: 2020-06-22 10:48:25
+ * @LastEditTime: 2020-06-23 14:57:52
 -->
 
 # xhzq-vue-cli
 
 鑫海智桥 vue 脚手架,用于构建为前端应用
 
-## 使用
+## 1.使用
 
 ```
 npm i xhzq-vue-cli -g
@@ -34,3 +34,10 @@ npm run serve
 4. 下载依赖 `npm install`
 
 5. 运行项目 `npm run serve`
+
+## 2.无法加载文件 C:\Program Files\nodejs\xhzq.ps1，因为在此系统上禁止运行脚本
+
+1. 以管理员身份运行 vscode;
+2. 执行：get-ExecutionPolicy，显示 Restricted，表示状态是禁止的;
+3. 执行：set-ExecutionPolicy RemoteSigned;
+4. 这时再执行 get-ExecutionPolicy，就显示 RemoteSigned;
