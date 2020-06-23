@@ -1,0 +1,28 @@
+{
+  "name": "xhzq-vue-cli",
+  "version": "0.0.1",
+  "description": "鑫海智桥 vue 脚手架,用于构建为前端应用",
+  "author": "gaojiapeng <2788235916@qq.com>",
+  "main": "apply.js",
+  "bin": {
+    "xhzq": "./bin/xhzq-vue-cli.js"
+  },
+  "scripts": {
+    "build": "babel src -d dist",
+    "watch": "npm run build -- --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^5.0.0",
+    "download-git-repo": "^3.0.2",
+    "ini": "^1.3.5",
+    "inquirer": "^7.1.0",
+    "log-symbols": "^3.0.0",
+    "ora": "^4.0.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-env": "^2.4.1"
+  }
+}
