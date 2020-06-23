@@ -4,7 +4,7 @@
  * @Author: gaojiapeng
  * @Date: 2020-06-22 10:35:29
  * @LastEditors: gaojiapeng
- * @LastEditTime: 2020-06-23 14:57:52
+ * @LastEditTime: 2020-06-23 15:55:37
 -->
 
 # xhzq-vue-cli
@@ -41,3 +41,7 @@ npm run serve
 2. 执行：get-ExecutionPolicy，显示 Restricted，表示状态是禁止的;
 3. 执行：set-ExecutionPolicy RemoteSigned;
 4. 这时再执行 get-ExecutionPolicy，就显示 RemoteSigned;
+
+## 3.项目正在初始化中 失败（x）
+
+请确保能够打开 https://github.com/
