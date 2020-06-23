@@ -1,30 +1,27 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.downloadLocal = undefined;
 
-var _downloadGitRepo = require('download-git-repo');
+var _downloadGitRepo = require("download-git-repo");
 
 var _downloadGitRepo2 = _interopRequireDefault(_downloadGitRepo);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 const downloadLocal = exports.downloadLocal = async (projectName, projectType) => {
-  let templatePath = '';
+  let templatePath = "";
   switch (projectType) {
-    case 'web':
-      templatePath = 'hql7/wl-template-vue';
+    case "子应用":
+      templatePath = "";
       break;
-    case 'mfe-subapp':
-      templatePath = 'hql7/wl-template-mfe-subapp-vue';
-      break;
-    case 'mfe-master':
-      templatePath = 'hql7/wl-template-mfe-master-vue';
+    case "主应用":
+      templatePath = "YasoIsCool/template-master";
       break;
     default:
-      templatePath = 'hql7/wl-template-vue';
+      templatePath = "YasoIsCool/template-master";
   }
 
   return new Promise((resolve, reject) => {
@@ -36,4 +33,11 @@ const downloadLocal = exports.downloadLocal = async (projectName, projectType) =
       resolve();
     });
   });
-};
+}; /*
+    * @Descripttion: 文件说明
+    * @version: 0.0.1
+    * @Author: gaojiapeng
+    * @Date: 2020-06-22 10:35:29
+    * @LastEditors: gaojiapeng
+    * @LastEditTime: 2020-06-23 14:07:40
+    */

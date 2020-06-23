@@ -24,5 +24,15 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-env": "^2.4.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YasoIsCool/xhzq-cli.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YasoIsCool/xhzq-cli/issues"
+  },
+  "homepage": "https://github.com/YasoIsCool/xhzq-cli#readme"
 }
