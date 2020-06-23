@@ -1,6 +1,6 @@
 {
   "name": "xhzq-vue-cli",
-  "version": "0.0.1",
+  "version": "0.3.0",
   "description": "鑫海智桥 vue 脚手架,用于构建为前端应用",
   "author": "gaojiapeng <2788235916@qq.com>",
   "main": "apply.js",

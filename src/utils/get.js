@@ -1,11 +1,3 @@
-/*
- * @Descripttion: 文件说明
- * @version: 0.0.1
- * @Author: gaojiapeng
- * @Date: 2020-06-22 10:35:29
- * @LastEditors: gaojiapeng
- * @LastEditTime: 2020-06-23 14:07:40
- */
 import downloadGit from "download-git-repo";
 
 export const downloadLocal = async (projectName, projectType) => {
