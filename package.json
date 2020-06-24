@@ -1,6 +1,6 @@
 {
   "name": "xhzq-vue-cli",
-  "version": "0.4.0",
+  "version": "1.0.0",
   "description": "鑫海智桥 vue 脚手架,用于构建为前端应用",
   "author": "gaojiapeng <2788235916@qq.com>",
   "main": "apply.js",
@@ -9,8 +9,7 @@
   },
   "scripts": {
     "build": "babel src -d dist",
-    "watch": "npm run build -- --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "npm run build -- --watch"
   },
   "dependencies": {
     "chalk": "^4.0.0",

@@ -15,13 +15,13 @@ const downloadLocal = exports.downloadLocal = async (projectName, projectType) =
   let templatePath = "";
   switch (projectType) {
     case "子应用":
-      templatePath = "";
+      templatePath = "YasoIsCool/xhzq-template-subapp";
       break;
     case "主应用":
       templatePath = "YasoIsCool/xhzq-template-master";
       break;
     default:
-      templatePath = "YasoIsCool/xhzq-template-master";
+      templatePath = "YasoIsCool/xhzq-template-subapp";
   }
 
   return new Promise((resolve, reject) => {
@@ -39,5 +39,5 @@ const downloadLocal = exports.downloadLocal = async (projectName, projectType) =
     * @Author: gaojiapeng
     * @Date: 2020-06-22 10:35:29
     * @LastEditors: gaojiapeng
-    * @LastEditTime: 2020-06-23 15:07:50
+    * @LastEditTime: 2020-06-24 15:23:02
     */
