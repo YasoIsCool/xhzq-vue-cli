@@ -4,7 +4,7 @@
  * @Author: gaojiapeng
  * @Date: 2020-06-22 10:35:29
  * @LastEditors: gaojiapeng
- * @LastEditTime: 2020-06-23 14:46:44
+ * @LastEditTime: 2020-06-24 15:22:40
  */
 
 import program from "commander";
@@ -15,7 +15,7 @@ import chalk from "chalk";
 let actionMap = {
   init: {
     description: "从模板生成新项目。",
-    usages: ["鑫海智桥初始化项目"],
+    usages: ["鑫海智桥前端初始化项目"],
     alias: "i"
   }
 };
